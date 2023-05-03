@@ -19,10 +19,10 @@ GPIO.output(relay_pin, GPIO.HIGH)
 logger.info('rele turned ON')
 
 # Воспроизведение аудиофайла с помощью mpg321
-os.system(f'mpg321 {path_to_file}')
-logger.info('audio file started')
+# os.system(f'mpg321 {path_to_file}')
+# logger.info('audio file started')
 
-time.sleep(3)
+time.sleep(60)
 logger.info('file finished')
 
 # Отключение реле
